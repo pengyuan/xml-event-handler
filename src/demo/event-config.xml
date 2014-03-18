@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="frame" class="demo.FrameDemo2">
+        <component name="calculate">
+            <event type="ActionListener" class="event.OnClick" method="onClick"></event>
+        </component>
+    </bean>
+</beans>
